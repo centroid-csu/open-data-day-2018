@@ -24,6 +24,6 @@ This workshop is intended to be accessible to anyone interested in learning abou
 
 The workshop will provide computers for use, though you're encouraged to bring your own laptop if you wish. It is also recommended you create a [GitHub account](https://github.com/) if you haven't already, as well as an account on [CodePen](https://codepen.io/), prior to the workshop.
 
-### About the guest instructors
+## About the guest instructors
 
 Rich Donohue is a postdoctoral scholar at the University Kentucky's Department of Geography. He is a curriculum designer and instructor for New Maps Plus, an online program in Web GIS and Mapping. He studied Cartography at the UW-Madison, where his research focused on teaching mapping with web standards.
