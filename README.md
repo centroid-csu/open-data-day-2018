@@ -1,6 +1,6 @@
 # Open Data Day 2018
 
-<p><img style='float: left; margin-right: 12px;' src='graphics/ODDlogo.png' alt='Fort Collins Open Data Day Logo'>This repository houses information for the CSU Centroid's sponsored [Open Data Day 2018](http://opendataday.org/), to be held on Friday, March 2nd from 2 - 5pm (computer lab TBA).</p>
+<img style='float: left; margin-right: 12px;' src='graphics/ODDlogo.png' alt='Fort Collins Open Data Day Logo'>This repository houses information for the CSU Centroid's sponsored [Open Data Day 2018](http://opendataday.org/), to be held on Friday, March 2nd from 2 - 5pm (computer lab TBA).
 <br style='clear:both'> 
 
 ## Workshop Overview
