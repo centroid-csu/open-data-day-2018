@@ -22,5 +22,5 @@ By the end of this workshop, participants will be able to:
 
 This workshop is intended to be accessible to anyone interested in learning about open data and mapping (aka open to "newbies"). We expect no prior technical background and will demonstrate coding processes and provide examples and templates.
 
-The workshop will provide computers for use, though you're encouraged to bring your own laptop if you wish. It is also recommended you create a GitHub account if you haven't already, as well as an account on [CodePen](https://codepen.io/), prior to the workshop.
+The workshop will provide computers for use, though you're encouraged to bring your own laptop if you wish. It is also recommended you create a [GitHub account](https://github.com/) if you haven't already, as well as an account on [CodePen](https://codepen.io/), prior to the workshop.
 
