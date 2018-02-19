@@ -1,51 +1,19 @@
 # Open Data Day 2018
 
-This repository houses information for the CSU Centroid's sponsored [Open Data Day 2018](http://opendataday.org/), to be held on Friday, March 2nd from 2 - 5pm (computer lab TBA).
+<img style='float: left' src='graphics/ODDlogo.png' alt='Fort Collins Open Data Day Logo'> This repository houses information for the CSU Centroid's sponsored [Open Data Day 2018](http://opendataday.org/), to be held on Friday, March 2nd from 2 - 5pm (computer lab TBA).
+<br style='clear:both'> 
 
 ## Workshop Overview
 
-![](graphics/ODDlogo.png) 
-
-TBD
+This hands-on workshop celebrates open data and mapping through an exploration of publically accessible portals and web services. We'll begin with an overview of open data, licensing, and use. Workshop participants will learn how to construct a basic web map using [CodePen](https://codepen.io/) and [Leaflet](http://leafletjs.com/), the popular open-source JavaScript mapping library. We'll then practice requesting various data layers for integration with the map. The workshop will conclude with considerations for future steps for enhanced representation and interaction for mapping with open data.
 
 ### Learning objectives
 
-* be able to identify sources for acquiring open data
+By the end of this workshop, participants will be able to:
+
+* identify sources for acquiring open data
 * understand open data licenses and the implications for their use (non-profit/commercial, etc)
-* demonstrate the ability access and retrieve open data (FTP, API keys, curl)
-* employ various means for evaluating the quality of the data (metadata, thinking critically about the source/funders, etc)
-* analyze and wrangle data (Spreadsheets, desktop and web-based GUIs, scripts)
-* prepare data in a suitable format for including in a web map using open web standards/libraries
-* load data into an open web mapping template supporting the representation of data and appropriate user interaction
+* demonstrate the ability to build a basic web map using HTML, CSS, and JavaScript (templates provided)
+* access and retrieve open data layers and services using API keys and REST services
+* request geospatial data stored as GeoJSON and add it to the map
 
-## Resources
-
-### Open data sources:
-
-* https://data.world/
-* https://www.data.gov/
-* http://data.opengeoportal.org/
-* http://www.naturalearthdata.com/downloads/
-* https://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html
-* https://hub.arcgis.com/pages/open-data
-* https://earthexplorer.usgs.gov/
-* http://overpass-turbo.eu/
-* https://download.geofabrik.de/
-* http://sedac.ciesin.columbia.edu/
-* http://www.opentopography.org/
-* http://data.opengeoportal.org/
-
-### Open Licenses
-
-* https://project-open-data.cio.gov/open-licenses/
-* http://opendefinition.org/guide/data/
-
-
-### Data querying and analysis
-
-* https://docs.data.world
-* ???
-
-### Visualization and mapping
-
-* lots of directions here ...
