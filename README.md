@@ -15,7 +15,7 @@ By the end of this workshop, participants will be able to:
 * identify sources for acquiring open data
 * understand open data licenses and the implications for their use (non-profit/commercial, etc.)
 * demonstrate the ability to build a basic web map using HTML, CSS, and JavaScript (templates provided)
-* access and retrieve open data layers and services using API keys and REST services
+* access and retrieve open data layers and services using and REST API services
 * request geospatial data stored as GeoJSON and add it to the map
 
 ### Expected background and requirements
@@ -32,16 +32,28 @@ We may have you quickly create new accounts to access data and API keys, so have
 
 * Follow along with the instructor and the documentation for the workshop outlined below
 * Open the [collaborative notes for Open Data Day 2018](https://docs.google.com/document/d/1RHppW-e5ySZ2P-GnFFF_-O4uBUADThMUTnssFMYi3kk/edit?usp=sharing) and edit the document with ideas, links to resources, and questions
-* Create a free [GitHub account](https://github.com/) if you don't have one (tip: choose a professional username consistent with your LinkedIn, social media handles, etc.)
+* (Optional) Create a free [GitHub account](https://github.com/) if you don't have one (tip: choose a professional username consistent with your LinkedIn, social media handles, etc.)
 
 **Outline for the workshop:**
 
-* Introductions:
-  * Guest instructors and sponsors
-  * Workshop participants
-  * Open data and Open Data Day
-* Open data and Open Data Day
-* Finding 
+* [Getting started](#getting-started)
+  + [About the guest instructor](#about-the-guest-instructor)
+  + [About the workshop participants](#about-the-workshop-participants)
+  + [Open data and Open Data Day](#open-data-and-open-data-day)
+* [Finding and using open data](#finding-and-using-open-data)
+  + [The boring but necessary part: licenses](#the-boring-but-necessary-part-licenses)
+* [Introduction to open web mapping with Leaflet.js](#introduction-to-open-web-mapping-with-leafletjs)
+  + [Codepen: a Web-based development environment](#codepen-a-web-based-development-environment)
+  + [Building blocks of web design: HTML, CSS, JS](#building-blocks-of-web-design-html-css-js)
+    - [HTML (content)](#html-content)
+    - [CSS (form)](#css-form)
+    - [JavaScript (behavior and events)](#javascript-behavior-and-events)
+  + [Creating a basic Leaflet map with open map tiles](#creating-a-basic-leaflet-map-with-open-map-tiles)
+  + [Playing with Layers](#playing-with-layers)
+* [Mapping feature data from a REST service](#mapping-feature-data-from-a-rest-service)
+  + [Requesting GeoJSON data from a REST service](#requesting-geojson-data-from-a-rest-service)
+* [Web mapping with open data](#web-mapping-with-open-data)
+  + [Adding interaction to the map](#adding-interaction-to-the-map)
 
 ### About the guest instructor
 
