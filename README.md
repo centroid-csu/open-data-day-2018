@@ -263,7 +263,6 @@ Replace the JavaScript we've already written with the following (note how the co
 var options = {
   center: [40.57, -105.08], // lon, lat
   zoom: 11,  // initial zoom level 
-  zoomSnap: .1
 }
 
 // create Leaflet map with options
@@ -279,15 +278,60 @@ var tiles = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
 tiles.addTo(map)
 ```
 
-If successful, you should see your colored square for our "map" element replaced by a tiled Leaflet-supported slippy map using map tiles from opentopomap.org
+If successful, you should see your colored square for our "map" element replaced by a tiled Leaflet-supported slippy map using map tiles from opentopomap.org.
 
 ![](graphics/map-template.png)
 
 Hurray! You've made your first open web map using open data map tiles.
 
+While we're not going to get deep into writing JavaScript, note the code stored as our `mapOptions`:
+
+```javascript
+//define map options
+var options = {
+  center: [40.57, -105.08], // lon, lat
+  zoom: 11,  // initial zoom level 
+}
+```
+
+**Task:** Try adjusting the numeric values for the latitude and longitude of the center of the map, as well as the initial zoom level (0 - 17).
+
+We now have a basic map page template to work with moving forward. If you break your page playing with the HTML/CSS/JavaScript (which you should do), you can access it here:
+
+https://codepen.io/rgdonohue/pen/wyOoyr
+
+You can choose to "Fork" this Pen into your own account for further editing.
+
 ### Playing with Layers
 
-** Changing basemap layers
+Let's now explore some other options for these openly accessible map tiles. Navigate your browser to the following URL:
+
+http://leaflet-extras.github.io/leaflet-providers/preview/
+
+This page provides access to many available map tiles. Clicking on the tile options to the right will supply you with the JavaScript code necessary to request the new tile set. You can then cut and paste this code into your pen, replacing the existing tile layer with the new one.
+
+For instance, we can replace this code within our Pen:
+
+```javascript
+L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+	maxZoom: 17,
+	attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+})
+```
+With the following code to produce a grayscale version of the tiles.
+
+```javascript
+L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+})
+```
+
+Saving those changes to our code will produce a new basemap:
+
+![](graphics/new-tileLayer.gif)
+
+**Task:** Experiment with swapping our various basemaps listed within the Leaflet Providers demo page.
 
 ###
 
