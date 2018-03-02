@@ -52,12 +52,12 @@ We may have you quickly create new accounts to access data and API keys, so have
 You completed a brief survey when registering. Here is what you told us you do or who you are:
 
 ![Responses from workshop participants: role](graphics/participants-roles.png)  
-**Figure XX.** Responses from workshop participants: role.
+**Figure 01.** Responses from workshop participants: role.
 
 You also told us about your experience with various mapping tools:
 
 ![Responses from workshop participants: experience](graphics/participants-experience.png)  
-**Figure XX.** Responses from workshop participants: experience.
+**Figure 02.** Responses from workshop participants: experience.
 
 **Quick introductions:** Briefly (20 seconds max each!) go around the room and introduce ourselves:
 
@@ -69,7 +69,7 @@ You also told us about your experience with various mapping tools:
 We're here to celebrate Open Data through [Open Data Day 2018](http://opendataday.org/).
 
 ![](graphics/open-data-day.png)  
-**Figure XX.** [Open Data Day 2018](http://opendataday.org/).
+**Figure 03.** [Open Data Day 2018](http://opendataday.org/).
 
 There are many forms that open data take and many activities, priorities, and goals associated with open data. To get a better sense, peruse the registered events on the [Open Data Day map](http://opendataday.org/) or read Tweets posted with the [#OpenDataDay hashtag](https://twitter.com/search?q=%23OpenDataDay&src=tyah).
 
@@ -78,7 +78,7 @@ For some, open data needs to be freely accessible by all. For others, open data 
 **Question:** But really, what is open data?
 
 ![](graphics/open-data-meme.png)  
-**Figure XX.** Inigo Montoya asking what open data means.
+**Figure 04.** Inigo Montoya asking what open data means.
 
 Seriously, I don't know what open data is. As lively as a full-blown discussion about what it may or may not be, perhaps that's something to leave for post-workshop geobeers?
 
@@ -115,7 +115,7 @@ While the "what is open data?" and "where do we get open data?" and "how can use
 Today we're going to introduce you to open source web mapping briefly. There are many exciting mapping tools and libraries to explore. We'll be using [Leaflet](http://leafletjs.com/), the "leading open-source JavaScript library for mobile-friendly interactive maps."
 
 ![Leaflet logo](graphics/leaflet.png)  
-**Figure XX.** Leaflet logo.
+**Figure 05.** Leaflet logo.
 
 Before we learn a little bit about making web maps with Leaflet, we need to establish a "development environment" and learn some basics of web standards. While being a mapper ten or fifteen years ago meant fluency using desktop GISs, zip files, and perhaps Adobe Illustrator, today it increasingly means understanding how the web works through web standards such as HTML/SVG, CSS, and JavaScript.
 
@@ -126,7 +126,7 @@ Typically web designers, developers, and mappers build applications using a [loc
 To simplify things today, however, we'll use a development environment housed entirely with the web browser called [CodePen](https://codepen.io/). Dubbed "a social development environment for front-end designers and developers," CodePen allows us to import various resources from the web and write our code to practice web mapping.
 
 ![Codepen development interface](graphics/codepen.png)  
-**Figure XX.** Codepen development interface.
+**Figure 06.** Codepen development interface.
 
 You can create a new account to use Codepen, but it's easier to log in using your GitHub credentials (recommended).
 
@@ -135,7 +135,7 @@ You can create a new account to use Codepen, but it's easier to log in using you
 Let's get started learning a little bit about web development using Codepen. Login to your Codepen account and choose the option to create a "New Pen."
 
 ![Creating a New Pen](graphics/create-pen.gif)  
-**Figure XX.** Creating a New Pen.
+**Figure 07.** Creating a New Pen.
 
 We're now ready to write a little HTML, CSS, and JavaScript.
 
@@ -170,7 +170,7 @@ We write HTML to structure the content of our pages and application. Begin by pa
 As you can see, Codepen automatically updates the "browser" window at the bottom (you can also hit Save at the top or Cntr-S to save and refresh the window).
 
 ![The HTML interactively updated in Codepen](graphics/pen-html.png)  
-**Figure XX.** The HTML interactively updated in Codepen.
+**Figure 08.** The HTML interactively updated in Codepen.
 
 **Task:** Play around with the HTML within Codepen. Change the values of the text.
 
@@ -226,7 +226,7 @@ h2{
 Upon saving and updating, you should see the rendered HTML elements update with various style rules:
 
 ![CSS style rules applied to the HTML elements](graphics/pen-css.png)  
-**Figure XX.** CSS style rules applied to the HTML elements.
+**Figure 09.** CSS style rules applied to the HTML elements.
 
 **Task:** Try playing around with the values of the style rules. Change the colors of the elements. Try adjusting the margins or sizes of the elements.
 
@@ -245,7 +245,7 @@ document.querySelector("h1").innerHTML = "world's best map title"
 As you can see, the JavaScript code can change the content of the HTML.
 
 ![Using JavaScript to select and change an HTML element](graphics/pen-js.gif)  
-**Figure XX.** Using JavaScript to select and change an HTML element.
+**Figure 10.** Using JavaScript to select and change an HTML element.
 
 JavaScript is also able to change the form or styles of the HTML elements. Try writing or pasting the following JS code to change the color of the "map" element (values can be common color names or hexadecimal values):
 
@@ -256,7 +256,7 @@ document.querySelector("#map").style.background = '#ffa950'
 We can see how JavaScript can change the styles.
 
 ![Using JavaScript to update content and styles dynamically](graphics/pen-js-style.gif)  
-Figure XX. Using JavaScript to update content and styles dynamically.
+**Figure 10.** Using JavaScript to update content and styles dynamically.
 
 All together HTML, CSS, and JavaScript form the foundation for web mapping. Of course, there are many more web standards that come into play (notably SVG, HTML's counterpart for describing graphics). But this should be enough to get us into trouble for the time being.
 
@@ -276,12 +276,12 @@ Note there is a file containing Leaflet's CSS rules (ending with the extension `
 We need to first add references to these resources. Within the Codepen interface, access the Pen Settings and paste the URL for the CSS into the CSS tab. Note that you just want to paste the URL: `https://unpkg.com/leaflet@1.3.1/dist/leaflet.css`
 
 ![Including the Leaflet CSS in the Codepen interface](graphics/leaflet-css.gif)  
-**Figure XX.** Including the Leaflet CSS in the Codepen interface.
+**Figure 12.** Including the Leaflet CSS in the Codepen interface.
 
 Then do the same thing for the JavaScript: `https://unpkg.com/leaflet@1.3.1/dist/leaflet.js`
 
 ![Including the Leaflet JS in the Codepen interface](graphics/leaflet-js.gif)  
-**Figure XX.** Including the Leaflet JS in the Codepen interface.
+**Figure 13.** Including the Leaflet JS in the Codepen interface.
 
 We should now be ready to go.
 
@@ -310,7 +310,7 @@ tiles.addTo(map)
 If successful, you should see your colored square for our "map" element replaced by a tiled Leaflet-supported slippy map using map tiles from opentopomap.org.
 
 ![Leaflet map rendered with opentopo map tiles](graphics/map-template.png)  
-**Figure XX.** Leaflet map rendered with opentopo map tiles.
+**Figure 14.** Leaflet map rendered with opentopo map tiles.
 
 Hurray! You've made your first open web map using open data map tiles.
 
@@ -360,9 +360,11 @@ L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 Saving those changes to our code will produce a new basemap:
 
 ![Swapping the basemap in a Leaflet map](graphics/new-tileLayer.gif)  
-**Figure XX.** Swapping the basemap in a Leaflet map.
+**Figure 15.** Swapping the basemap in a Leaflet map.
 
 **Task:** Experiment with swapping our various basemaps listed within the Leaflet Providers demo page.
+
+**Note:** We'll be moving away from requesting tile layers now, but if you're an Esri fan you should explore the [Esri Leaflet Plugin](https://github.com/Esri/esri-leaflet) for working with a handful of the most popular ArcGIS Service types.
 
 ## Mapping feature data from a REST service
 
@@ -424,7 +426,7 @@ The geojson.xyz is a website supporting RESTful delivery of GeoJSON formats of [
 Copy the "populated places simple" direct URL.
 
 ![Copying the direct URL from geojson.xyz](graphics/xyz-direct-url.png)  
-**Figure XX.** Copying the direct URL from geojson.xyz.
+**Figure 16.** Copying the direct URL from geojson.xyz.
 
 Then, within your script in Codepen, paste the URL within the single parentheses as so:
 
@@ -447,14 +449,14 @@ Now that we've covered some basics of open source web mapping with open data let
 First navigate to [OpenCity Fort Collins](https://opencity.fcgov.com), a portal for open data and information about Fort Collins.
 
 ![OpenCity Fort Collins website](graphics/openCity-fc.png)  
-**Figure XX.** OpenCity Fort Collins website.
+**Figure 17.** OpenCity Fort Collins website.
 
 We'll explore some of this data in a moment, but for now, find the dataset of [New Construction Permits](https://opencity.fcgov.com/Economic-Health/New-Construction-Permits/4nr5-i9u8). When you navigate to this dataset, you'll see the data is already plotted on a web map (how nice). But let's plot this data on our own map within our Pen.
 
 Click on the blue "Export" button to the top right, and then access the "SODA API" panel. You'll see a URL for the "API Endpoint." That's our huckleberry. Copy this URL.
 
 ![Finding the SODA API Endpoint](graphics/soda-endpoint.gif)  
-**Figure XX.** Finding the SODA API Endpoint.
+**Figure 18.** Finding the SODA API Endpoint.
 
 Then, within your Pen, use this URL to request the GeoJSON data. Note that the default endpoint ends with a `.json` extension. We'll want to change this to `.geojson`: `https://opencity.fcgov.com/resource/y6wr-rcc6.geojson`.
 
@@ -475,7 +477,7 @@ var options = {
 The result should be the point locations now plotted on our Leaflet map.
 
 ![Plotting point features with data drawn from openCity REST](graphics/permits-plotted.png)  
-**Figure XX.** Plotting point features with data drawn from openCity REST.
+**Figure 19.** Plotting point features with data drawn from openCity REST.
 ### Adding interaction to the map
 
 For our final trick, we'll add some basic user interaction (UI) allowing the user to retrieve specific information from the map. Replace the function that draws our data with the following:
@@ -503,17 +505,11 @@ function drawData(data) {
 The comments provide some indication of how the code is working. We're able to access the property attributes encoded within the GeoJSON and bind these to a Leaflet tooltip to be displayed when the user mouses over a feature.
 
 ![Extending the code to add a Leaflet tooltip](graphics/tooltip.gif)  
-**Figure XX.** Extending the code to add a Leaflet tooltip.
+**Figure 20.** Extending the code to add a Leaflet tooltip.
 
 We know what the fields names are by looking at the data source on the open city website.
 
 ![Finding the field names of the dataset](graphics/field-names.png)  
-**Figure XX.** Finding the field names of the dataset.
+**Figure 21.** Finding the field names of the dataset.
 
 **Final Task:** Explore the [OpenCity Fort Collins website](https://opencity.fcgov.com). Find an interesting dataset (with a geospatial signature), acquire the API Endpoint, and create a new Pen mapping the data. Time permitting, we'll share these maps with the rest of the workshop.
-
-## Conclusions and additional resources moving forward
-
-### Additional resources 
-
-* [Esri Leaflet](https://github.com/Esri/esri-leaflet) (Leaflet plugins for working with a handful of the most popular ArcGIS Service types.)
